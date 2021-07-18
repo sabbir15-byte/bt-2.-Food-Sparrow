@@ -1,0 +1,296 @@
+#header-section{
+    background: url('images/Frame 59.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+/* header-section */
+.header{
+
+}
+#logo{
+    font-family: 'Pacifico', cursive;
+    color: #3498db;
+}
+#menu{
+
+}
+#menu li{
+
+}
+#menu li a{
+    color: #34495e;
+    font-weight: bold;
+}
+#menu li a:hover{
+    color: #3498db;
+}
+/* banner-section */
+.banner{
+
+}
+.banner h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3rem;
+}
+.banner p{
+    font-family: 'Roboto', sans-serif;
+    color: #95a5a6;
+    font-size: 15px;
+}
+.banner img{
+    
+}
+/* About us-section */
+#about-us{
+    background: url('images/Frame-49.jpg') no-repeat 0 0;
+    background-size: cover;
+    margin: 100px 0px;
+}
+.personal-img{
+
+}
+.about-text{
+
+}
+.about-text h1{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #3498db;
+    
+}
+.about-text p{
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 0px;
+}
+/* Newest Recipes section */
+#recipes-section{
+
+}
+.recipes-header h1{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #3498db;
+}
+.recipes-header p{
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0px;
+}
+
+.card {
+    border: none;
+    
+}
+.card :hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30); 
+}
+.card-title{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #3498db;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    color: #95a5a6;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card small{
+    
+}
+/* contract section */
+.form-group {
+    width: 50%;
+}
+#contract-section{
+    margin: 100px 0px;
+}
+.contract-info h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 50px;
+}
+.contract-info p{
+    font-family: 'Roboto', sans-serif;
+    color: #70a1ff;
+    margin-bottom: 20px;
+}
+.contract-info button{
+    margin-left:23%;
+}
+.btn-outline-primary {
+    width: 142px;
+}
+/* counter section */
+.number h1{
+    font-size: 47px;
+}
+#counter{
+    background-color: #f1f2f6;
+}
+/* footer section */
+#social-icons {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  #social-icons li {
+	display: inline-block;
+    padding-right: 10px;
+  }
+  #social-icons li a {
+    color: white;
+    font-size: 35px; 
+  }
+  #social-icons li a:hover {
+    color: #bdc3c7;
+    
+  }
+  .copy{
+    font-family: 'Pacifico', cursive;
+  }
+  #footer h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+
+
+  @media (max-width: 575.98px) {
+      #logo{
+          font-size: 1.75rem;
+          text-align: center;
+      }
+      #menu{
+        display: flex;
+        flex-direction: column;
+      }
+      .banner-text{
+        text-align: center;
+        
+      }
+      .banner{    
+      }
+      .banner h1{
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 1.75rem;
+        margin-top: 10px;
+
+    }
+    .banner p{
+        font-family: 'Roboto', sans-serif;
+        color:black;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: justify;
+        margin-bottom: 0px;
+    }
+    .banner button{
+        margin-bottom: 20px;
+        width: 100px;
+        font-size: 15px;
+        
+    }
+    .banner img{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    #about-us{
+        margin: 40px 0px;
+    }
+
+    .personal-img img{
+        width: 300px;
+        height: 350px;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-text h1{
+        font-size: 1.75rem;
+        
+    }
+    .about-text p{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .about-text button{
+        width: 100px;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .sabbir{
+        text-align: center;
+    }
+    .sabbir h1{
+        font-size: 1.75rem;
+    }
+    .sabbir p{
+        text-align: center;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .card-deck .card {
+        margin-bottom: 50px;
+    }
+    .card{
+        border: 1px solid blue;
+    }
+    .contract-info{
+        text-align: center;
+    }
+    .contract-info h1{
+        font-size: 1.75rem;
+    }
+    .contract-info p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .form-group {
+        width: 100%;
+    }
+    .button button {
+        width: 72px;
+        font-size: 15px;
+        margin-bottom: 38px;
+        display: flex;
+        
+    }
+    .contract-info button {
+        margin-left: 32%;
+    }
+    .contract-img img{
+        width: 270px;
+        height: 300px;
+    }
+    #contract-section{
+        margin: 30px 0px;
+    }
+    .counter-div{
+        margin-bottom: 25px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #footer h1{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    #footer h6{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    #social-icons{
+        
+    }
+    #social-icons ul li{
+        display: inline-block;
+        justify-content: center;
+      }
+
+  }
